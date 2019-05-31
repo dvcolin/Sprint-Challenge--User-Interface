@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+/***************** NAVIGATION **************/
+
 .navbar {
     width: 100%;
     display: flex;
@@ -96,6 +98,8 @@ p {
     padding: 8px;
 }
 
+/***************** HOME - TOP CONTENT **************/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -114,6 +118,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/***************** HOME - MIDDLE CONTENT **************/
 
 .middle-content {
     margin-bottom: 20px;
@@ -141,6 +147,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/***************** HOME - BOX BACKGROUND COLORS **************/
 
 #box1 {
     background: teal;
@@ -182,6 +190,8 @@ p {
     background: dodgerblue;
 }
 
+/***************** HOME - BOTTOM CONTENT **************/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -195,6 +205,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/***************** FOOTER **************/
 
 footer {
     width: 100%;
@@ -228,11 +240,15 @@ footer nav a {
     font-weight: bold;
 }
 
+/***************** ABOUT - MAIN **************/
+
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+/***************** ABOUT CARDS **************/
 
 .about-card {
     width: 350px;
@@ -261,6 +277,8 @@ main {
 .about-card-button:hover {
     cursor: pointer;
 }
+
+/***************** ABOUT - BOTTOM TEXT **************/
 
 .bottom-text {
     margin: 24px;

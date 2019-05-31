@@ -71,12 +71,42 @@ p {
     margin: 0 auto;
 }
 
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.nav-logo {
+    margin-right: auto;
+}
+
+.nav-links {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-image {
+    width: 100%;
+    margin-bottom: 24px;
 }
 
 .top-content .text-container {
@@ -112,6 +142,46 @@ p {
     justify-content: center;
 }
 
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -129,10 +199,12 @@ p {
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    justify-content: center;
 }
 
 footer nav {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,4 +215,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/***************** ABOUT PAGE **************/
+.top-text {
+    padding-bottom: 16px;
+    border-bottom: 1px dashed black;
+}
+
+.top-text-title {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-card {
+    width: 350px;
+    margin: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px dashed black;
+}
+
+.about-card-img {
+    width: 100%;
+}
+
+.about-card-title {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.about-card-button {
+    margin-top: 16px;
+    background: none;
+    padding: 8px 24px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.about-card-button:hover {
+    cursor: pointer;
+}
+
+.bottom-text {
+    margin: 24px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.bottom-text-title {
+    font-weight: bold;
 }

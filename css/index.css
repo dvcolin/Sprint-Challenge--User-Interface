@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -71,6 +75,40 @@ p {
     margin: 0 auto;
 }
 
+/***************** NAVIGATION **************/
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.nav-logo {
+    margin-right: auto;
+}
+
+.nav-links {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    transition: color 200ms ease-out;
+}
+
+.nav-link:hover {
+    color: #949090;
+}
+
+/***************** HOME - TOP CONTENT **************/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,11 +117,18 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-image {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/***************** HOME - MIDDLE CONTENT **************/
 
 .middle-content {
     margin-bottom: 20px;
@@ -112,6 +157,50 @@ p {
     justify-content: center;
 }
 
+/***************** HOME - BOX BACKGROUND COLORS **************/
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/***************** HOME - BOTTOM CONTENT **************/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,13 +215,17 @@ p {
     padding-right: 0;
 }
 
+/***************** FOOTER **************/
+
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    justify-content: center;
 }
 
 footer nav {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,4 +236,111 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/***************** ABOUT PAGE **************/
+.top-text {
+    padding-bottom: 16px;
+    border-bottom: 1px dashed black;
+}
+
+.top-text-title {
+    font-weight: bold;
+}
+
+/***************** ABOUT - MAIN **************/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/***************** ABOUT CARDS **************/
+
+.about-card {
+    width: 350px;
+    margin: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px dashed black;
+}
+
+.about-card-img {
+    width: 100%;
+}
+
+.about-card-title {
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+.about-card-button {
+    margin-top: 16px;
+    background: none;
+    padding: 8px 24px;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.about-card-button:hover {
+    cursor: pointer;
+}
+
+/***************** ABOUT - BOTTOM TEXT **************/
+
+.bottom-text {
+    margin: 24px;
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.bottom-text-title {
+    font-weight: bold;
+}
+
+
+/***************** CONTACT PAGE **************/
+
+.contact-image {
+    height: 200px;
+    background: url(../img/contact-header.jpg);
+    background-size: cover;
+    background-position: 0 55%;
+    margin-bottom: 32px;
+}
+
+.contact-title {
+    font-size: 60px;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #dd2020;
+}
+
+.contact-middle-content {
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    margin-bottom: 48px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-form-title {
+    color: #dd2020;
+    margin-bottom: 16px;
+}
+.contact-form-input {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

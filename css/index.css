@@ -301,3 +301,46 @@ main {
 .bottom-text-title {
     font-weight: bold;
 }
+
+
+/***************** CONTACT PAGE **************/
+
+.contact-image {
+    height: 200px;
+    background: url(../img/contact-header.jpg);
+    background-size: cover;
+    background-position: 0 55%;
+    margin-bottom: 32px;
+}
+
+.contact-title {
+    font-size: 60px;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #dd2020;
+}
+
+.contact-middle-content {
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    margin-bottom: 48px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-form-title {
+    color: #dd2020;
+    margin-bottom: 16px;
+}
+.contact-form-input {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
